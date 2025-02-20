@@ -15,3 +15,10 @@ resource "azurerm_resource_group" "git3" {
     name = "cin-gitlab-rg"
     
 }
+
+
+resource "azurerm_resource_group" "git4" {
+    location = "uk west"
+    name = "ukw-gitlab-rg"
+    
+}
