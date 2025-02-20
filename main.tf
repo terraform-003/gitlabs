@@ -22,3 +22,9 @@ resource "azurerm_resource_group" "git4" {
     name = "ukw-gitlab-rg"
     
 }
+
+resource "azurerm_resource_group" "git5" {
+    location = "eastus"
+    name = "eus-gitlab-rg"
+    
+}
